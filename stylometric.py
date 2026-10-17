@@ -62,7 +62,8 @@ other_books = {
     'Charles Dickens': [2], # Oliver Twist
     'Mark Twain': [3], # The Adventures of Tom Sawyer
     'James Fenimore Cooper': [4], # The Last of the Mohicans
-    'Henry Wadsworth Longfellow': [5] # The Song of Hiawatha
+    'Henry Wadsworth Longfellow': [5], # The Song of Hiawatha
+    'Joel Barlow': [6] # The Columbiad
 }
 js_acquaintances = {
     'Oliver Cowdery': [1,2],

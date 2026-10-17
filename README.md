@@ -3,10 +3,11 @@
 There have been a few stylometric studies on the Book of Mormon (for and against)
 - [Book of Mormon Stylometry in Pictures and Tables](https://rationalfaiths.com/book-of-mormon-stylometry-in-pictures-and-tables/), 2016, Rational Faiths
 - [Stylometric Analyses of the Book of Mormon: A Short History](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1492&context=jbms), 2012, Journal of Book of Mormon Studies
+- [Reassessing authorship of the Book of Mormon using delta and nearest shrunken centroid classification](https://solomonspalding.com/Lib/Jock2008.htm), 2008, Literary and Linguistic Computing
 - [Book of Mormon Authorship: New Light on Ancient Origins](https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1014&context=mi), 1996, Maxwell Institute Publications
 - [A Stylometric Analysis of Mormon Scripture and Related Texts](https://www.physics.smu.edu/scalise/P3333sp08/ScienceReligion/MormonStylometric.pdf), 1992, Journal of the Royal Statistical Society
 
-However I'm unaware of any accessible project that anyone can view the sources, download, and tweak the variables or fine tune the data (spelling).
+However I'm unaware of any accessible project that anyone can view the referenced sources, download, and tweak the variables or fine tune the data (spelling).
 
 # Data
 
@@ -27,7 +28,7 @@ Format of `Known author: work (word count)`
 ### Non Book of Mormon
 
 - Bible: King James Version (793k)
-- Isaiah: King James Version (37k)
+  - Isaiah: King James Version (37k)
 - Joseph Smith:
   - 1833 Letter to Church Leaders (2.2k)
   - 1839 Letter to Emma Smith (1k)
@@ -50,6 +51,7 @@ Format of `Known author: work (word count)`
   - Charles Dickens: Oliver Twist (157k)
   - Mark Twain: The Adventures of Tom Sawyer (70k)
   - James Fenimore Cooper: The Last of the Mohicans (147k)
+  - Joel Barlow: Columbiad (57k)
 
 
 # Setup
