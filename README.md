@@ -15,11 +15,14 @@ Goal of 5,000+ (6,500+) words per author for comparison.
 ## Comparison Data
 Format of `Known author: work (word count)`
 
-### From Book of Mormon (267k)w
+### From Book of Mormon (267k)
 - Nephi
+- Jacob
+- Enos
+- Jarom
+- Omni
 - Mormon
 - Moroni
-- Jacob
 
 ### Non Book of Mormon
 
@@ -29,20 +32,29 @@ Format of `Known author: work (word count)`
   - 1833 Letter to Church Leaders (2.2k)
   - 1839 Letter to Emma Smith (1k)
   - 1842 Wentworth Letter (2.9k)
-- Ethan Smith: View of the Hebrews (47k)
-- Eliakim: The First Book of Napolean (18k)
-- Solomon Spalding: Manuscript Found (39k)
-- Oliver Cowdery: TODO
-- Sidney Rigdon: TODO
-- Parley Pratt: TODO
-- Henry Longfellow: TODO
-- Jane Austin: TODO
-- Charles Dickens: TODO
-- Mark Twain: TODO
-- James Fennimore Cooper: TODO
+  - TODO find more
+- Potential Plagarism Source:
+  - Ethan Smith: View of the Hebrews (47k)
+  - Eliakim: The First Book of Napolean (18k)
+  - Solomon Spalding: Manuscript Found (39k)
+- Joseph Smith Acquaintances:
+  - Oliver Cowdery:
+    - 1829 Articles of the Church of Christ (1.4k)
+    - 1831 Letter to Members of the Church (.9k)
+    - TODO find more
+  - Sidney Rigdon: TODO
+  - Parley Pratt: TODO
+- Other Authors:
+  - Henry Longfellow: The Song of Hiawatha (30k)
+  - Jane Austin: Sense and Sensibility (119k)
+  - Charles Dickens: Oliver Twist (157k)
+  - Mark Twain: The Adventures of Tom Sawyer (70k)
+  - James Fenimore Cooper: The Last of the Mohicans (147k)
 
 
 # Setup
+
+Need [python 3](https://www.python.org)
 
 `pip install nltk pandas numpy scikit-learn faststylometry matplotlib`
 
@@ -55,3 +67,8 @@ If you want the graphs of basic stylometrics remove the comments (`"""`) surroun
 # Foundation Stylometry Info/Reference
 - https://guides.temple.edu/stylometryfordh
 - https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python#introduction
+
+## Sources:
+- [Project Gutenberg](https://www.gutenberg.org)
+- [Internet Archive](https://archive.org)
+- [Joseph Smith Papers](https://josephsmithpapers.org)

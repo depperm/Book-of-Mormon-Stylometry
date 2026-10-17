@@ -57,6 +57,18 @@ bible_books = {
     'Peter': [51, 52], # 1 peter, 2 peter
     'Jude': [56]
 }
+other_books = {
+    'Jane Austin': [1], # Sense and Sensibility
+    'Charles Dickens': [2], # Oliver Twist
+    'Mark Twain': [3], # The Adventures of Tom Sawyer
+    'James Fenimore Cooper': [4], # The Last of the Mohicans
+    'Henry Wadsworth Longfellow': [5] # The Song of Hiawatha
+}
+js_acquaintances = {
+    'Oliver Cowdery': [1,2],
+    'Parley P. Pratt': [],
+    'Sidney Rigdon': [],
+}
 
 def read_files_into_string(filenames, section='BookOfMormon', prefix='bom'):
     strings = []
@@ -74,6 +86,9 @@ for author, files in bible_books.items():
 
 for author, files in plagiarism_books.items():
     writings_by_author[author] = read_files_into_string(files, 'PlagarismSource', prefix='book')
+
+for author, files in other_books.items():
+    writings_by_author[author] = read_files_into_string(files, 'OtherBooks', prefix='book')
 
 writings_by_author['Joseph Smith'] = read_files_into_string(joseph_smith, section='JosephSmith', prefix='doc')
 
